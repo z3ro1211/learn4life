@@ -1,0 +1,17 @@
+.content {
+width: 300px;
+}
+
+.special-news {
+background-color: lightblue;
+}
+
+.normal-news {
+background-color: lightyellow;
+}
+#main-content{
+  background-color: red;
+}
+#myId{
+  width:300px;
+}
