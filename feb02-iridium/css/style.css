@@ -1,0 +1,41 @@
+article {
+  width: 55%;
+  display: block;
+  float: left;
+}
+ article img {
+   width:100%;
+ }
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+aside {
+  float:right;
+  width: 35%;
+}
+#graytext {
+  font-size: 11px;
+  color: gray;
+}
+
+.sun {
+float: left;
+margin-right: 5px;
+}
+
+li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.grassbackground{
+background-image: url("../img/banner.jpg");
+text-align: center;
+padding:15%;
+background-repeat: no-repeat;
+}
