@@ -1,0 +1,116 @@
+/*.grass{
+  background-image: url(../img/banner.jpg) ;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li{
+display: inline-block;
+}*/
+body{
+  margin:0;
+  font-family: sans-serif;
+
+}
+header{
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 550px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+  text-transform: uppercase;
+}
+h1{
+  margin: 0;
+  font-size: 4em;
+
+
+}
+p{
+margin: 0;
+}
+nav{
+  padding:10px;
+
+
+}
+ul{
+  padding:10px;
+  margin:0;
+  list-style: none;
+  margin:50px 0 0 0;
+}
+li{
+  display: inline-block;
+
+}
+a{
+  color:inherit;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius:500px;
+  border:1px solid transparent;
+}
+header a:hover{
+  background-color:hsla(0, 0%, 100%, .1);
+    border-color:white;
+}
+section{
+  padding: 50px 12%;
+  display: flex;
+}
+section article{
+  flex: 2;
+}
+section aside{
+  flex: 1;
+}
+/*section article{
+  width: 70%;
+  float: left;
+
+}
+section aside{
+  width: 30%;
+  float: right;*/
+}
+article img{
+  width: 100%;
+  margin:25px 0;
+}
+h2{
+  font-size: 2.5em;
+margin-bottom: 0;
+}
+
+h2 + p{
+  margin: 0;
+  font-size: 1.25em;
+}
+aside li{
+  padding-bottom:25px;
+
+}
+aside li:not(:first-child){
+  padding-top:25px;
+}
+aside li:not(:last-child){
+  border-bottom:1px solid black;
+}
+aside img{
+  float:left;
+  margin-right:15px;
+}
+aside p{
+  padding-left: 85px;
+
+}
+/*
+ :not()
+*/
