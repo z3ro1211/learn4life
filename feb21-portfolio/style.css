@@ -1,0 +1,20 @@
+body{
+  margin:0;
+  background-color: #ccc;
+}
+nav li{
+  display: inline-block;
+
+}
+section{
+  padding:150px 20%;
+  background-image:linear-gradient(hsla(100,50%,50%,.5), hsla(200, 50%, 50%, 1)  ), url(http://unsplash.it/750/750);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+footer{
+  background-color: darkgray;
+  padding:50px 10%;
+}
