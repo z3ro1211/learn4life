@@ -1,0 +1,30 @@
+body{
+  background-image: url(../img/noice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1{
+  color:red;
+  text-align: center;
+}
+ul{
+  color:blue;
+  text-align: center;
+}
+ul li a{
+  color:blue;
+
+}
+li{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+section{
+  text-align: center;
+  color: darkgrey;
+}
