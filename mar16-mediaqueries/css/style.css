@@ -1,0 +1,14 @@
+body{
+  margin:0;
+}
+h1{
+  font-family: @import url('https://fonts.googleapis.com/css?family=Play');
+}
+img{
+  width: 75%;
+  float:right;
+  margin:0 0 25px;
+}
+div{
+  padding:100px 10%;
+}
