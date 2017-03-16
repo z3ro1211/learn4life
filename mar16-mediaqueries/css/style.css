@@ -12,3 +12,58 @@ img{
 div{
   padding:100px 10%;
 }
+
+@media screen and (min-width: 1000px){
+  body{
+    background-color: magenta;
+  }
+  h1{
+    font-size: 1000px;
+  }
+}
+
+@media screen and (min-width: 750px){
+  body{
+    background-color: red;
+  }
+  h1{
+    font-size: 1000px;
+  }
+}
+
+@media screen and (min-width: 300px){
+  body{
+    background-color: pink;
+  }
+  h1{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 100px){
+  body{
+    background-color: lightgreen;
+  }
+  h1{
+    font-size: 500px;
+  }
+}
+
+@media screen and (min-width: 500px){
+  body{
+    background-color: salmon;
+  }
+  h1{
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 700px){
+  h1{
+    font-size:3em;
+    line-height: 1.5;
+  }
+  img{
+    width: 100%;
+    float:none;
+  }
+}
