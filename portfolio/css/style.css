@@ -20,6 +20,16 @@ body{
   background-attachment: fixed;
 
 }
+#past{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.red{
+  color: red;
+}
 h1{
   color:red;
   text-align: center;

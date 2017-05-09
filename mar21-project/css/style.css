@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(' https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
+
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
-  background-color: hsl(0, 0%, 97%);
-  margin: 0;
-  font-weight: 100;
+  margin:0;
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(0, 0%, 95.7%);
 }
-#nav-div a {
+header a {
 color: hsl(180, 1%, 88%);
 text-decoration: none;
 display: block;
@@ -18,7 +20,7 @@ font-size: 14px;
 position: relative;
 transition: color .25s;
 }
-#nav-div ul {
+header ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -27,13 +29,14 @@ transition: color .25s;
   zoom: 1;
   font-size: 0;
 }
-#nav-div {
+header {
   background-color: hsl(0, 0%, 100%);
+  margin-bottom: 30px;
 }
-#nav-div a:hover {
+header a:hover {
   color: hsla(176, 98%, 49%, 0.7);
 }
-#nav-div ul li a::before {
+header ul li a::before {
   content: "";
   display: block;
   position: absolute;
@@ -43,174 +46,6 @@ transition: color .25s;
   width: 100%;
   background: #333333;
   transition: width .25s;
-}
-#nav-div ul li a::after {
-  content: "";
-    display: block;
-    position: absolute;
-    right: -3px;
-    top: 19px;
-    height: 6px;
-    width: 6px;
-    background: #ffffff;
-    opacity: .5;
-}
-section header {
-  background-color: white;
-  padding: 20px 20px;
-  margin: 20px 40px;
-}
-section h1 {
-  font-size: 2.5em;
-  text-align: center;
-}
-section h1, h2 {
-  font-weight: 400;
-}
-section p {
-  width: 500px;
-  height:auto;
-  padding: 20px;
-}
-section ul {
-  padding: 0;
-  padding: 0;
-  list-style: none;
-}
-section main {
-  padding: 64px 16%;
-}
-section li {
-  display: flex;
-  background-color: white;
-  padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-bottom: 1px solid black;
-}
-section img {
-  width: 40%;
-  height: auto;
-  padding:20px;
-}
-section li:nth-child(even) p {
-  padding-left: 60px;
-}
-section li:nth-child(odd) img {
-  order:0;
-  margin-left: 24px;
-}
-section li:nth-child(even) img {
-  order: 1;
-  margin-left: 34px;
-}
-@media screen and (max-width:1000px) {
-  li {
-    flex-direction: column;
-}
-
-li img {
-  order:0 !important;
- }
-}
-
-YOLOYLOYLYOLYOYYLO$Lye;ojtrgfgekjwbV’KEAJRHVlkfe”slkvlkenSOK
-
-
-<section class="header">
-   <h2>Home Page</h2>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Nobis exercitationem dolorem, labore, sunt a incidunt saepe vel totam repudiandae, <br> optio est architecto possimus consequuntur ex reprehenderit vitae veritatis fuga! Impedit!</p>
- </section>
-
-.header {
-  padding: 4em 4em 2em 4em;
-  border-radius: 5px;
-  text-align: center;
-  background-color: ;
-  border: black 1px solid;
-}
- New html & css:
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My portfolio</title>
-  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <h1>Welcome to my Homepage</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Home  </a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </nav>
-</header>
-
-  <section id="first">
-    <h2>About Me</h2>
-    <img src="img/FullSizeRender.jpg" alt="picture of me">
-    <p>
-      Hello, my name is Jada Naphaivong. I am currently learning HTML & CSS at Geekwise.
-    </p>
-    <a href="#"> Click for More</a>
-  </section>
-
-  <section id="second">
-    <h2>Lorem ipsum dolor sit amet.</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorem quos ad illo veritatis molestiae totam blanditiis, voluptates animi accusantium!
-    </p>
-  </section>
-
-  <section id="third">
-    <h2>Lorem ipsum dolor sit amet.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic maiores, corrupti aliquam atque iure. Error nobis incidunt hic neque numquam est quisquam. Error, id, ducimus.</p>
-  </section>
-
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="http://etsy.com" class="fa fa-etsy" aria-hidden="true"></a></li>
-      <li><a href="https://github.com/jadanjewels" class="fa fa-github" aria-hidden="true"></a></li>
-      <li><a href="https://www.linkedin.com/" class="fa fa-linkedin" aria-hidden="true"></a></li>
-      <li><a href="https://twitter.com/" class="fa fa-twitter" aria-hidden="true"></a></li>
-
-      </ul>
-    </nav>
-  </footer>
-
-</body>
-</html>
-
-Css :
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url(' https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
-
-body {
-  margin:0;
-  font-family: 'Raleway', sans-serif;
-  background-color: hsl(0, 0%, 95.7%);
-}
-header {
-  padding: 100px 90px;
-  margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1473777785975-efb668f9ea99?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 nav li {
   display: inline-block;
@@ -222,28 +57,18 @@ h1 {
   justify-content: center;
   color: hsl(0, 1.1%, 18.2%);
   padding: 5%;
-  color: hsla(0, 0%, 100%, 0.81);
-}
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-
+  color: hsl(169, 80%, 66%);
 }
 header a {
-  /*border: 2px solid hsl(0, 1.1%, 18.2%);*/
   border-radius: 5px;
   padding: 10px 30px;
   text-decoration: none;
   color: hsl(0, 1.1%, 18.2%);
   transition: box-shadow 400ms ease-out;
-  color: white;
+  color: hsl(169, 75%, 62%);
 }
 header a:hover {
-  color: white;
-  box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
-
-
+  color: hsla(179, 100%, 71%, 0.71);
 }
 #first{
   padding: 150px 90px;
@@ -255,10 +80,13 @@ header a:hover {
   text-align: center;
 
 }
+#first h2{
+  color: rgb(214, 130, 165);
+}
 #first img {
   width: 20%;
   height: auto;
-  border: 1px solid red;
+  border: 1px solid transparent;
   border-radius: 50%;
 }
 #first a {
@@ -282,7 +110,7 @@ header a:hover {
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1487780711836-2b1fe5783580?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1480789261196-2df71e5ab018?dpr=1.5&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -310,4 +138,3 @@ li {
   display: flex;
   justify-content: space-between;
 }
-/*http://paletton.com/palette.php?uid=13h0u0kndxX8GT6h6HluFtJxiko*/
