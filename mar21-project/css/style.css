@@ -1,8 +1,115 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+.name {
+  font-size: 1.5rem
+}
+.content.display-container  {
+position: relative;
+}
+.button {
+  height:150px;
+  position: absolute;
+  top: 40%;
+  background-color: Transparent;
+  color: black;
+  outline: none;
+  border: none;
+  transition: 1000ms all;
+}
+.button:hover {
+  text-shadow:
+   1px 1px .25px hsl(234, 67%, 94%),
+   2px 2px 8px hsl(234, 67%, 94%),
+   -1px 1px .25px hsl(234, 67%, 94%),
+   -2px 2px 8px hsl(234, 67%, 94%),
+   1px -1px .25px hsl(234, 67%, 94%),
+   2px -2px 8px hsl(234, 67%, 94%),
+   -1px -1px .25px hsl(234, 67%, 94%),
+   -2px -2px 8px hsl(234, 67%, 94%)
+}
+.display-left {
+  left: 0;
+}
+.display-right {
+  right: 0;
+}
+.container-div {
+  display: flex;
+  justify-content: center;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url(' https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
-
+#nav-div a {
+color: black;
+text-decoration: none;
+display: block;
+padding: 15px 25px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 14px;
+position: relative;
+transition: color .25s;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: inline-block;
+  zoom: 1;
+  font-size: 0;
+}
+#nav-div {
+  background-color: orange;
+}
+#nav-div a:hover {
+  color: red;
+}
+#nav-div ul li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #333333;
+  transition: width .25s;
+}
+#nav-div ul li a::after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #ffffff;
+    opacity: .5;
+}
+article {
+  text-align: center;
+  background-color: white;
+}
+.header {
+  padding: 4em 4em 2em 4em;
+  border-radius: 5px;
+  text-align: center;
+  background-color: ;
+  border: black 1px solid;
+}
+h2, h1 {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.375;
+}
+.color {
+  background-color: lightgrey;
+}
+.mySlides {
+  width: 400px;
+}
 body {
   margin:0;
   font-family: 'Raleway', sans-serif;
@@ -82,6 +189,11 @@ header a:hover {
 }
 #first h2{
   color: rgb(214, 130, 165);
+}
+.mySlides {
+  width:100% !important;
+  border-radius: 0 !important;
+
 }
 #first img {
   width: 20%;

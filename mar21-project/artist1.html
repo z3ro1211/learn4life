@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The life of an artist in Fresno</title>
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
 <ul>
 <li>
-  <a href="#">Homepage</a>
+  <a href="index.html">Homepage</a>
 </li>
 </ul>
 <ul>
@@ -38,17 +38,58 @@
 </header>
 
 <section id="first">
- <h2>Pat Bandoni</h2>
- <img src="img/pat.jpg" alt="picture of Pat's work">
+ <h2>Dennis Lewis</h2>
+ <img src="img/dennislewis.jpg" alt="">
  <p>
-   I was born in Fresno Ca. Drawing and painting have always been a part of my life. My favorite mediums are oils and pastels. My style is changeable. Painting is a gift that I give myself. It's my time to create and play. Flowers are one of my favorite subjects. I taught floral design classes for Fresno Adult School and worked for my favorite florist at Flowers by Marie. The collection here covers a wide spectrum of styles, with different palettes and color schemes.
+   Dennis Lewis started painting at the age of seven. He was inspired to paint after his mother complemented a drawing he had made for her. Dennis works mostly in oils, creating still-life portraits of people and any objects the pleases him. aside from being an artist he also helped create some of the first video games such as <i>The Island of Dr. Brain</i>. in recent years Dennis had the urge to paint 100 portraits, some of which are in the slideshow below. unfortunately Dennis was diagnosed with cancer, he still paints though. Cancer won't keep him from his dreams. Dennis likes to paint stories into his art, he lets the viewer finish the story he has presented
  </p>
+ <p>
+   <i>"The simple act of sketching stimulates creative thought" -Dennis Lewis</i>
+ </p>
+
+ <div class="container-div">
+ <div class="content display-container">
+  <button class="button display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <img class="mySlides" src="img/457d216f-2709-45e4-8c30-91ad460e0ebb.jpg" >
+  <img class="mySlides" src="img/dennislewis.jpg" >
+  <img class="mySlides" src="img/Angels+On+Our+Shoulders.jpg" >
+  <img class="mySlides" src="img/Final_painting.jpg" >
+  <img class="mySlides" src="img/lebron_eml.jpg" >
+  <img class="mySlides" src="img/OJD_eml.jpg" >
+  <img class="mySlides" src="img/reign_fire_pntng.jpg" >
+  <img class="mySlides" src="img/Rose+of+Sharon.jpg" >
+  <img class="mySlides" src="img/silver+creamer.jpg" >
+  <img class="mySlides" src="img/springbreeze.jpg" >
+  <img class="mySlides" src="img/vic_eml.jpg" >
+  <button class="button display-right" onclick="plusDivs(1)">&#10095;</button>
+ </div>
+ </div>
+
+ <script>
+ var slideIndex = 1;
+ showDivs(slideIndex);
+
+ function plusDivs(n) {
+ showDivs(slideIndex += n);
+ }
+ function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+ }
+ x[slideIndex-1].style.display = "block";
+ }
+ </script>
+
 </section>
 
 <section id="second">
   <h2>Interview Questions</h2>
   <h3>How long have you been painting? </h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor libero eius laudantium provident quidem omnis eaque consectetur laborum voluptas harum.</p>
+  <p>Since 1971, so for about 46 years</p>
   <h3>What inspired you to become an artist?</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellendus, a facere dolorem sed! Neque repudiandae, atque amet minus quidem.</p>
   <h3>What's your favorite aspect of being artist? </h3>
