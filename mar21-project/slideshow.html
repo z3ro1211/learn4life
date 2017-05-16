@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-div">
+  <div class="content display-container">
+   <button class="button display-left" onclick="plusDivs(-1)">&#10094;</button>
+   <img class="mySlides" src="img/457d216f-2709-45e4-8c30-91ad460e0ebb.jpg" >
+   <img class="mySlides" src="img/dennislewis.jpg" >
+   <img class="mySlides" src="img/Angels+On+Our+Shoulders.jpg" >
+   <img class="mySlides" src="img/Final_painting.jpg" >
+   <img class="mySlides" src="img/lebron_eml.jpg" >
+   <img class="mySlides" src="img/OJD_eml.jpg" >
+   <img class="mySlides" src="img/reign_fire_pntng.jpg" >
+   <img class="mySlides" src="img/Rose+of+Sharon.jpg" >
+   <img class="mySlides" src="img/silver+creamer.jpg" >
+   <img class="mySlides" src="img/springbreeze.jpg" >
+   <img class="mySlides" src="img/vic_eml.jpg" >
+   <button class="button display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+  showDivs(slideIndex += n);
+  }
+  function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+  }
+  </script>
+</body>
+</html>

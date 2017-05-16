@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
 h1 {
   font-family: 'Fredericka the Great', cursive;
 }
@@ -8,7 +10,7 @@ h1 {
 position: relative;
 }
 .button {
-  height:150px;
+  height: 80px;
   position: absolute;
   top: 40%;
   background-color: Transparent;
@@ -104,78 +106,14 @@ h2, h1 {
   line-height: 1.5;
   letter-spacing: 0.375;
 }
+footer {
+  text-align: center;
+}
 .color {
   background-color: lightgrey;
 }
-.mySlides {
-  width: 400px;
-}
-body {
-  margin:0;
-  font-family: 'Raleway', sans-serif;
-  background-color: hsl(0, 0%, 95.7%);
-}
-header a {
-color: hsl(180, 1%, 88%);
-text-decoration: none;
-display: block;
-padding: 15px 25px;
-font-family: 'Open Sans', sans-serif;
-font-weight: 700;
-text-transform: uppercase;
-font-size: 14px;
-position: relative;
-transition: color .25s;
-}
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  display: inline-block;
-  zoom: 1;
-  font-size: 0;
-}
-header {
-  background-color: hsl(0, 0%, 100%);
-  margin-bottom: 30px;
-}
-header a:hover {
-  color: hsla(176, 98%, 49%, 0.7);
-}
-header ul li a::before {
-  content: "";
+footer a {
   display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 100%;
-  background: #333333;
-  transition: width .25s;
-}
-nav li {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-h1 {
-  display: flex;
-  justify-content: center;
-  color: hsl(0, 1.1%, 18.2%);
-  padding: 5%;
-  color: hsl(169, 80%, 66%);
-}
-header a {
-  border-radius: 5px;
-  padding: 10px 30px;
-  text-decoration: none;
-  color: hsl(0, 1.1%, 18.2%);
-  transition: box-shadow 400ms ease-out;
-  color: hsl(169, 75%, 62%);
-}
-header a:hover {
-  color: hsla(179, 100%, 71%, 0.71);
 }
 #first{
   padding: 150px 90px;
@@ -185,21 +123,7 @@ header a:hover {
   background-color: white;
   color: hsl(0, 0%, 26.7%);
   text-align: center;
-
-}
-#first h2{
-  color: rgb(214, 130, 165);
-}
-.mySlides {
-  width:100% !important;
-  border-radius: 0 !important;
-
-}
-#first img {
-  width: 20%;
-  height: auto;
-  border: 1px solid transparent;
-  border-radius: 50%;
+  border-bottom: solid lightgrey 25px;
 }
 #first a {
   padding: 10px 25px;
@@ -222,31 +146,9 @@ header a:hover {
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1480789261196-2df71e5ab018?dpr=1.5&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=);
+  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1487780711836-2b1fe5783580?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: white;
-}
-footer {
-  padding: 25px 10%;
-  margin-top: 20px;
-  text-align: center;
-}
-footer nav {
-  border-top: 2px solid hsl(0, 1.1%, 18.2%);
-}
-footer a {
-  color: hsl(0, 1.1%, 18.2%);
-  text-decoration: none;
-}
-footer a:hover {
-  color: hsl(126, 25%, 57%);
-
-}
-li {
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
