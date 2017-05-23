@@ -217,6 +217,8 @@ header a:hover {
 }
 #first a:hover {
   box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
+  color: hsl(200, 100%, 67%);
+
 
 }
 #second {
